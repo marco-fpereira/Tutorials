@@ -7,8 +7,8 @@
     - {%thread} = Display in which thread the log was created
     - %-5level = Define the level of the log (ex: info)
     - %logger{X} = Define, through 'X', the length of the class path that will be shown. Ex:
-        %logger{36} -> br.com.alura.logs.CursoApplication
-        %logger{0} -> CursoApplication
+        %logger{36} -> br.com.example.Application
+        %logger{0} -> Application
     - %M = Define that, not only the class name, but also the method name will be displayed
     - %rEx{short} = Define that any thrown exception will be displayed in just one line (much cleaner)
 -->
